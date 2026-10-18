@@ -2,7 +2,7 @@
   "name": "dsh-ar",
   "version": "1.0.0",
   "private": true,
-  "description": "Arabic language pack for the DeepSeek Harness web UI",
+  "description": "Arabic language pack for the DeepSeek Harness Desktop and Web UI",
   "type": "module",
   "exports": {
     ".": "./index.js",
