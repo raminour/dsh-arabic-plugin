@@ -1,0 +1,21 @@
+{
+  "name": "dsh-rtl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Right-to-left layout for the DeepSeek Harness web UI",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
